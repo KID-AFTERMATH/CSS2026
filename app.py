@@ -90,8 +90,8 @@ with st.sidebar:
     st.markdown("### Connect")
     st.markdown("""
     [![Google Scholar](https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com)
-    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
-    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+    [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KID-AFTERMATH)
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kamogelo-monyela-8b5918130/)
     [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org)
     """, unsafe_allow_html=True)
 
@@ -100,29 +100,28 @@ if page == "🏠 Overview":
     col1, col2 = st.columns([1, 2])
     
     with col1:
-        st.image("https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80", 
-                 caption="Dr. Jane Smith", use_column_width=True)
+        st.image("https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/504180479_9439854786119847_7570720266593999856_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGb5SKuh_tILRrDUzb7IsDoJcuWFjBOfYQly5YWME59hF14s7A54_cAb27gF8cY2c2GtOQD5Vl5bY07qUyepMei&_nc_ohc=DrpL07k3dO4Q7kNvwEIdquN&_nc_oc=AdkLjxcm5qj_hx8YckStiusfsyvwmrUvTYrIkhEkB5H3gaxpL69g-QDK1lAToRfUpO0&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=r90qNwJjWoV_7FAKZmGHZQ&oh=00_AfsDDPXgMHtSdGehT1cBmLq0pAruFAtZP52zpsxOXhhq0g&oe=698607FA", 
+                 caption="Mr MK Monyela", use_column_width=True)
         
         st.markdown("""
-        ### Dr. Jane Smith
-        **Associate Professor of Data Science**
+        ### Mr. MK Monyela
+        **Associate  of Data Science and Programming**
         
         Department of Computer Science  
-        University of Technology  
-        📧 j.smith@university.edu  
-        📍 Room 301, Research Building
+        University of Limpopo  
+        📧 202009016@myturf.ul.ac.za
+        📍 608,Dan village,Tzaneen 
         """)
     
     with col2:
         st.markdown('<div class="main-header">Research Profile</div>', unsafe_allow_html=True)
         
         st.markdown("""
-        Welcome to my research profile! I lead the **Advanced Data Analytics Lab** where we explore 
+        Welcome to my research profile! I am a **AData Analytics and Programmer** who explores 
         cutting-edge techniques in machine learning, computational statistics, and their applications 
         in healthcare and environmental science.
         
-        Our research focuses on developing interpretable AI models that can be deployed in real-world 
-        scenarios while maintaining transparency and fairness.
+        I also Programme websites, apps and game. my focus languages are JS, python, html5 and php 
         """)
         
         # Key research areas
@@ -162,44 +161,44 @@ elif page == "📚 Publications":
     # Sample publication data
     publications = [
         {
-            "title": "Interpretable Deep Learning for Medical Image Analysis",
-            "authors": "Smith, J., Johnson, A., Lee, R.",
-            "venue": "Nature Machine Intelligence, 2023",
-            "type": "Journal Articles",
-            "citations": 89,
-            "link": "https://doi.org/10.1038/s42256-023-00625-5"
+            "title": " ",
+            "authors": " ",
+            "venue": " ",
+            "type": " ",
+            "citations": 0,
+            "link": " "
         },
         {
-            "title": "Fairness in AI: A Comparative Study of Bias Mitigation Techniques",
-            "authors": "Smith, J., Chen, W., Patel, K.",
-            "venue": "NeurIPS 2022",
-            "type": "Conference Papers",
-            "citations": 142,
-            "link": "https://arxiv.org/abs/2203.12345"
+            "title": " ",
+            "authors": " ",
+            "venue": " ",
+            "type": " ",
+            "citations": 0,
+            "link": " "
         },
         {
-            "title": "Climate Change Prediction Using Hybrid AI Models",
-            "authors": "Smith, J., Davis, M., Wilson, P.",
-            "venue": "Environmental Science & Technology, 2022",
-            "type": "Journal Articles",
-            "citations": 56,
-            "link": "#"
+            "title": " ",
+            "authors": " ",
+            "venue": " ",
+            "type": " ",
+            "citations": 0,
+            "link": " "
         },
         {
-            "title": "Real-time Anomaly Detection in IoT Networks",
-            "authors": "Smith, J., Thompson, L.",
-            "venue": "IEEE IoT Journal, 2022",
-            "type": "Journal Articles",
-            "citations": 34,
-            "link": "#"
+            "title": " ",
+            "authors": " ",
+            "venue": " ",
+            "type": " ",
+            "citations": 0,
+            "link": " "
         },
         {
-            "title": "Advanced Statistical Methods for Big Data Analytics",
-            "authors": "Smith, J.",
-            "venue": "Springer, 2021",
-            "type": "Book Chapters",
-            "citations": 23,
-            "link": "#"
+            "title": " ",
+            "authors": " ",
+            "venue": " ",
+            "type": " ",
+            "citations": 0,
+            "link": " "
         },
     ]
     
@@ -345,29 +344,24 @@ elif page == "👤 About":
         st.markdown("""
         ## Biography
         
-        I am an Associate Professor in the Department of Computer Science at the University of Technology, 
-        where I lead the **Advanced Data Analytics Lab**. My research sits at the intersection of machine 
-        learning, statistics, and domain sciences, with particular focus on healthcare and environmental 
-        applications.
+        I am a AData Analytics and Programmer who explores cutting-edge techniques in machine learning, computational statistics, and their applications in healthcare and environmental science.
         
-        I received my Ph.D. in Computer Science from Stanford University, followed by postdoctoral training 
-        at MIT. My work has been recognized with several awards including the **NSF CAREER Award** and 
-        **Best Paper awards** at top conferences.
+        I also Programme websites, apps and game. my focus languages are JS, python, html5 and php.
         
         ### Education
-        - **Ph.D. in Computer Science**, Stanford University (2014)
-        - **B.S. in Computer Science**, UC Berkeley (2010)
+        - **BSc. in Computer Science**, University of Limpopo (2026)
+        - **Diploma in Cyber Security**, Oxford Home Study Center (2023)
         
         ### Awards & Honors
-        - NSF CAREER Award (2021)
-        - ACM SIGKDD Best Research Paper Award (2020)
-        - Google Faculty Research Award (2019)
-        - MIT Technology Review Innovators Under 35 (2018)
+        - Huawei cloud-track (2023)
+        - Coding fundamentals II (2020)
+        - Coding fundamentals I (2020)
+        - MIT NSC (2014)
         
         ### Professional Service
-        - Senior Program Committee: NeurIPS, ICML, AAAI
-        - Associate Editor: Journal of Machine Learning Research
-        - Reviewer for Nature, Science, PNAS
+        - software development
+        - python games
+        - Web designs
         """)
     
     with col2:
@@ -408,18 +402,17 @@ elif page == "📞 Contact":
         or speaking opportunities.
         
         **Office Address:**  
-        Department of Computer Science  
-        University of Technology  
-        123 Research Drive  
-        Tech City, TC 12345
+        608, Dan Village
+        next to Dan clinic, Tzaneen
+        Letaba
+        0870
         
-        **Email:** j.smith@university.edu  
-        **Phone:** +1 (555) 123-4567  
-        **Office Hours:** Tue/Thu 2-4 PM
+        **Email:** 202009016@myturf.ul.ac.za  
+        **Phone:** (+27) 852-1734  
+        **Office Hours:** Mon/Fri 9AM - 4 PM
         
         ### Prospective Students
-        I'm currently accepting new Ph.D. students and postdocs. 
-        Please email your CV and research interests.
+        I'm currently looking for work In hopes to improve my knowledge. Please Email me when you require my CV or assistance.
         """)
     
     with col2:
@@ -451,12 +444,8 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    st.markdown("**Last Updated:** January 2024")
+    st.markdown("**Last Updated:** January 2026")
 
 with col2:
-    st.markdown("**© 2024 Dr. Jane Smith**")
+    st.markdown("**© 2026 Mr. Kamogelo Monyela**")
 
-with col3:
-    st.markdown("""
-    **Data Sources:** Google Scholar, ORCID, University Database
-    """)
