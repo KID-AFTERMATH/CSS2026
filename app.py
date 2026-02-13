@@ -100,7 +100,7 @@ if page == "🏠 Overview":
     col1, col2 = st.columns([1, 2])
     
     with col1:
-        st.image("https://scontent-jnb2-1.xx.fbcdn.net/v/t39.30808-6/504180479_9439854786119847_7570720266593999856_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeGb5SKuh_tILRrDUzb7IsDoJcuWFjBOfYQly5YWME59hF14s7A54_cAb27gF8cY2c2GtOQD5Vl5bY07qUyepMei&_nc_ohc=DrpL07k3dO4Q7kNvwEIdquN&_nc_oc=AdkLjxcm5qj_hx8YckStiusfsyvwmrUvTYrIkhEkB5H3gaxpL69g-QDK1lAToRfUpO0&_nc_zt=23&_nc_ht=scontent-jnb2-1.xx&_nc_gid=r90qNwJjWoV_7FAKZmGHZQ&oh=00_AfsDDPXgMHtSdGehT1cBmLq0pAruFAtZP52zpsxOXhhq0g&oe=698607FA", 
+        st.image("https://photos.google.com/search/CgVNT1hJRRopCidBRjFRaXBQZ05HMjNPTFVIcHhhN1hQMzBVUFBLc3RPWlM0X2R6Y0UiMRIvCi0KKwopEidBRjFRaXBQZ05HMjNPTFVIcHhhN1hQMzBVUFBLc3RPWlM0X2R6Y0Uo54WSosUz/photo/AF1QipO6frkM9yDgnr-Gic4du8eJJjYEUWYrkW9nG8ke", 
                  caption="Mr MK Monyela", use_column_width=True)
         
         st.markdown("""
